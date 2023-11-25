@@ -11,7 +11,7 @@ import com.edson.helpdesk.services.DBService;
 @Profile("test")
 public class TestConfig {
 
-	@Autowired
+	@Autowired // o Autowired é igual a new DBService
 	private DBService dbService;
 	
 	@Bean
